@@ -1,0 +1,205 @@
+body{
+font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Sections */
+.white-section{
+  background-color: #fff;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+}
+/* Title */
+
+#title{
+  color: #fff;
+padding-bottom: 8rem;
+}
+
+.container-fluid{
+  padding: 2% 15%;
+}
+
+  /* Navbar */
+.navbar{
+  padding-bottom: 8%
+}
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
+font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Ubuntu;
+}
+
+/* Download Buttons */
+
+.Download-Button{
+  padding: 4px 16px;
+margin:5% 3% 5% 0;
+}
+
+ /* Images */
+.img-p{
+
+  margin-left: 4.5rem;
+  width: 20%;
+  transform: rotate(25deg);
+position: absolute;
+right: 23%;
+}
+
+.testimonials-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+  /* Features */
+
+#features{
+
+padding: 10rem 3rem 3.5rem;
+position: relative;
+z-index: 1;
+}
+
+.fa{
+font-size: 5rem;
+color: #ef8172;
+margin-bottom: 2rem;
+}
+
+.fa:hover{
+  color: #ff4c68;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+ /* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    padding: 20px;
+    text-align: center;
+}
+.press-logos{
+width: 15%;
+margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 4rem 10rem 2rem;
+}
+
+  /* pricing */
+  
+#pricing{
+  padding: 6.25rem;
+    text-align: center;
+}
+
+.pricing-coloumn{
+  padding: 4% 2%;
+}
+
+/* Call to Action */
+#cta{
+  text-align: center;
+
+  line-height: 2;
+  font-family: Montserrat;
+  padding-bottom: 4rem;
+}
+
+.cta-header{
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #fff;
+    padding: 3rem 20rem 1rem;
+
+}
+.dow-btn{
+  margin:1rem .5rem;
+  font-family: Ubuntu;
+  padding: .50% 2%;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  margin: 4rem;
+}
+
+.Copyright{
+  margin-top: 1.3rem;
+}
+
+.fa-footer{
+  margin: auto .75rem;
+}
+
+/* Media Query */
+@media (max-width:768.5px) {
+  #title{
+    text-align: center;
+  }
+  .img-p{
+    position: absolute;
+  transform: rotate(0);
+top: 45%;
+right:3%;
+  }
+
+}
+@media (max-width:625px) {
+  .db1{
+    display:block;
+position: absolute;
+left: 37%;
+top: 50%;
+  }
+
+  .db2{
+    display:block;
+position: absolute;
+left: 37%;
+top: 59%;
+padding-left:2%;
+  }
+}
+
+@media (max-width:874px) {
+  .cta-header{
+      padding: 3rem 10rem 1rem;
+  }
+}
